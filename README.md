@@ -13,7 +13,7 @@ This repository contains the design files and documentation for a Full Subtracto
 
 ## Introduction
 
-A Full Subtractor circuit is an essential component in digital electronics, particularly in arithmetic circuits. It takes three inputs: minuend (A), subtrahend (B), and borrow-in (BIN). It produces two outputs: difference (DIFF) and borrow-out (BOUT).
+A full subtractor is a combinational circuit that performs subtraction of two bits, one is minuend and other is subtrahend, taking into account borrow of the previous adjacent lower minuend bit. This circuit has three inputs and two outputs. The three inputs A, B and Bin, denote the minuend, subtrahend, and previous borrow, respectively. The two outputs, D and Bout represent the difference and output borrow, respectively. Although subtraction is usually achieved by adding the complement of subtrahend to the minuend, it is of academic interest to work out the Truth Table and logic realisation of a full subtractor; x is the minuend; y is the subtrahend; z is the input borrow; D is the difference; and B denotes the output borrow. The corresponding maps for logic functions for outputs of the full subtractor namely difference and borrow.
 
 This repository provides the schematic, layout, and simulation files for the Full Subtractor circuit designed using Cadence tools.
 
